@@ -1,0 +1,16 @@
+.rpt2_cache
+yarn-error.log
+yarn.lock
+build
+lib
+node_modules
+tmp
+docs
+docs/index.html
+.env
+stats.json
+dist/
+package-lock.json
+.resolution
+coverage
+.idea

@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "moduleResolution": "node",
+    "lib": ["es6", "dom"],
+    "outDir": "build",
+    "rootDir": "src",
+    "strict": false,
+    "esModuleInterop": true,
+    "declaration": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "stripInternal": true,
+    "strictNullChecks": true
+  },
+  "exclude": ["node_modules", "tmp", "**/*.test.ts", "build", "src/tests"],
+  "typedocOptions": {
+    "mode": "file",
+    "module": "commonjs",
+    "excludeExternals": true,
+    "excludePrivate": true,
+    "excludeNotExported": true,
+    "name": "Unstoppabledomains resolution library",
+    "inputFiles": [
+      "./src/Resolution.ts",
+      "./src/index.ts",
+      "./src/types/publicTypes.ts",
+      "./src/errors/configurationError.ts",
+      "./src/errors/resolutionError.ts",
+      "./src/errors/dnsRecordsError.ts"
+    ]
+  }
+}
